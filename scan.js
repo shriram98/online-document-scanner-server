@@ -17,7 +17,7 @@ const edged  = blurred.canny(0, 50);
 const orig_edged = edged.copy();
 
 
-const contours = orig_edged.findContours(cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE);
+const contours = orig_edged.findContours(cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE  );
 
 console.log(contours)
 // contours.sort();
