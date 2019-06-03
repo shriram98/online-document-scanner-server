@@ -1,0 +1,25 @@
+{
+  "name": "online-document-scanner-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "child_process": "^1.0.2",
+    "cloudinary": "^1.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.8",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "node-gyp": "^4.0.0",
+    "node-opencv": "0.0.2-security",
+    "opencv4nodejs": "^4.17.0",
+    "python-shell": "^1.0.7"
+  }
+}
